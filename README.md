@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Installation Configuration</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-installment requirements of the open-source help desk ticketing system osTicket.<br />
 
 
 <!-- <h2>Video Demonstration</h2>
@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that osTicket was installed, I could use it. So, the first thing I did was create a role called "Supreme Admin." It was not necessary, because the "All Access" role has the same permissions. But I wanted to be able to say I could create roles.
 </p>
 <br />
 
@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Afterward, I created a department called "SysAdmins." Some tickets are only viewable if you are within a certain department. So, I created one and took a picture. Just to say I could.
 </p>
 <br />
 
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Here, I created a team called "Online Banking." I will use this to assign a ticket to everyone in this team later.
 </p>
 <br />
 
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Finally, I created agents named Jane and John. Jane was given the role of "Supreme Admin," just so I could make her do anything. John, however, was not given a role. Instead, I manually controlled his access. I tried "view-only" and learned that he could not change the SLA on a ticket. I tried "Limited Access" and learned that he could not assign the ticket to anyone. So, I gave him "Extended Access." This was the "Least Privilege" he needed in order to perform all the tasks I wanted for him. In short, I learned how to apply the least privilege principle.
 </p>
 <br />
 
@@ -73,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once my agents were ready, I created a user who could submit tickets. Although, I did allow for users to submit tickets without logging on.
 </p>
 <br />
 
@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, I created SLA levels. Sev-A was a severe issue that had to be fixed within an hour. So, it was set to start that timer every hour of every day. Sev-B could be done in 4 hours. But it still started the counter 24/7. Sev-C was considered a normal issue and was set for normal business hours and 5 days per week.
 </p>
 <br />
 
@@ -91,6 +91,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lastly, I created some help topics for a user to choose from. With all of this done, now my ticketing system was ready to use. I had the system set up, users who could submit tickets, help topics to choose from, agents, and all the tools necessary to resolve a ticket.
 </p>
 <br />

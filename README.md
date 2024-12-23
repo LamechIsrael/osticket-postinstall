@@ -20,7 +20,7 @@ This tutorial outlines the post-installment requirements of the open-source help
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>List of Steps Taken</h2>
 
 - Created an Admin Role
 - Created a Department
